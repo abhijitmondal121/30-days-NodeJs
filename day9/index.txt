@@ -1,0 +1,23 @@
+Which of the following are examples of node modules?
+
+a. Express
+
+b. Body-parser 
+
+c. Socket.io
+
+d. All of the above
+
+Correct answer: d. All of the above
+
+a. Express: A popular and flexible tode, js web framework that provides a robust set of features for building web 
+            applications and APIs. It streamlines the development process by simplifying common tasks like routing,
+            middleware, and templating.
+
+b.Body parser: middleware for Node.js web applications that parses incoming request bodies in various 
+               formats (JSON, URL-encoded, text, etc.). It makes accessing form data, JSON payloads, 
+               and other request body content easy and convenient.
+
+c.socket.io: A real-time communication library for Node.js that enables bi-directional, event-driven communication 
+             between browsers and servers. This is ideal for building applicatioms that require real time updates, 
+             such as chat applications, collaborative games, and live dashboards.
