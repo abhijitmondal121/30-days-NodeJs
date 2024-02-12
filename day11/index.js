@@ -14,6 +14,7 @@ function authenticationMiddleware(req, res, next) {
     next();
   } catch (error) {
     res.status(401).json({ error: 'Invalid token' });
+    
   }
 }
 
