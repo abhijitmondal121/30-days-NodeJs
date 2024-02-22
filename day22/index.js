@@ -52,3 +52,4 @@ app.delete('/products/:id', async (req, res) => {
     ree.status(500).json({ message: err.message });
   }
 });
+
