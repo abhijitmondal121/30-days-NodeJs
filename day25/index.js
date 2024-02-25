@@ -24,6 +24,8 @@ const Product = mongoose.model('Product', ProductSchema);
 
 
 
+
+
 async function createProductNameIndex() {
 
 // Create an index on the "name" field of the "Product" collection
