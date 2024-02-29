@@ -10,6 +10,7 @@ app.get('/another-route', async (req, res, next) => {
     next(error);
   }
 });
+
 app.get('/yet-another-route', (req, res, next) => {
   next(new AppError('Internal Server Error', 500));
 });
