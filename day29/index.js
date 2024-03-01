@@ -22,6 +22,7 @@ function errorHandler(err, req, res, next) {
     res.status(500).json({ error: 'Internal Server Error' });
   }
 }
+
 class AppError extends Error {
   constructor(message, statusCode) {
     super(message);
