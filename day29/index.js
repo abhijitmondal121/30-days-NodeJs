@@ -23,6 +23,7 @@ function errorHandler(err, req, res, next) {
   }
 }
 
+
 class AppError extends Error {
   constructor(message, statusCode) {
     super(message);
